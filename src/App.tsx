@@ -15,7 +15,7 @@ const Container = styled.div`
 function App() {
     return (
         <Container>
-            <RoundedImage src={process.env.PUBLIC_URL + "/photo/victor.jpeg"}/>
+            <RoundedImage src={process.env.PUBLIC_URL + "/images/photo.jpeg"}/>
             <Title/>
             <SocialNetworks/>
         </Container>
