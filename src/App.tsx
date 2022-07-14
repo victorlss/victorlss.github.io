@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import RoundedImage from "./components/RoundedImage";
+import Title from "./components/Title";
+import styled from "styled-components";
+import SocialNetworks from "./components/SocialNetworks";
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+`
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Container>
+            <RoundedImage src={process.env.PUBLIC_URL + "/photo/victor.jpeg"}/>
+            <Title/>
+            <SocialNetworks/>
+        </Container>
+    );
 }
 
 export default App;
