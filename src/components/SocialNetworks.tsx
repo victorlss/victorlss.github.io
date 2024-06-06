@@ -23,9 +23,6 @@ export default function SocialNetworks() {
       <a href={socialNetwork.Blog} target='_blank' rel='noreferrer'>
         <FaWordpress />
       </a>
-      <a href={socialNetwork.Twitter} target='_blank' rel='noreferrer'>
-        <FaTwitter />
-      </a>
       <a href={'mailto:' + socialNetwork.Email} target='_blank' rel='noreferrer'>
         <FaEnvelope />
       </a>
