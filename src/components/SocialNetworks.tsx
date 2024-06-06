@@ -1,7 +1,7 @@
 import React from 'react'
 import socialNetwork from '../constants/socialNetwork'
 import colors from '../constants/colors'
-import { FaEnvelope, FaGithub, FaTwitter, FaWordpress } from 'react-icons/fa'
+import { FaEnvelope, FaGithub, FaWordpress } from 'react-icons/fa'
 import styled from 'styled-components'
 
 const Container = styled.div`
